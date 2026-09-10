@@ -5,7 +5,7 @@ description: Create or revise secure, quality-gated GitHub Actions workflows, in
 
 # GitHub Workflow Creator
 
-Create the smallest set of GitHub workflows that gives a repository dependable quality gates, proportionate security checks, and safe maintenance automation. This is a project-specific portfolio baseline derived from LedgerLink, Homelab, and Lincl; existing repository instructions and tooling remain authoritative.
+Create the smallest set of GitHub workflows that gives a repository dependable quality gates, proportionate security checks, and safe maintenance automation. Apply these patterns to the repository's actual risks and supported environments; existing repository instructions and tooling remain authoritative.
 
 ## Discover before designing
 
@@ -39,7 +39,7 @@ Create the smallest set of GitHub workflows that gives a repository dependable q
 - Make the auto-approval/merge workflow observe completed CI through `workflow_run`, and query GitHub metadata using the trusted workflow context. It must not execute PR code. Check whether the repository's branch-protection rules accept an App approval and allow that App to merge before enabling it.
 - Never automatically approve or merge contributor PRs, security-sensitive changes, infrastructure/deployment changes, lockfile-only updates whose provenance is unclear, or PRs with failed, missing, cancelled, or skipped required checks.
 
-Read [portfolio conventions](references/portfolio-conventions.md) when choosing among these patterns or adding auto-approval/merge logic.
+Read [workflow patterns](references/workflow-patterns.md) when choosing among these patterns or adding auto-approval/merge logic.
 
 ## Verify and hand off
 

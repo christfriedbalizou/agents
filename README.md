@@ -1,11 +1,11 @@
 # Agents
 
-A stack-neutral foundation for repositories that use Codex-style agent instructions and reusable skills. It intentionally captures durable engineering practice, not an organisation's libraries, cloud provider, CI product, or deployment topology.
+A stack-neutral, opinionated foundation for repositories that use Codex-style agent instructions and reusable skills. Its `AGENTS.md` and skills deliberately express strong engineering defaults; adapt them to each project's facts and constraints. They intentionally do not prescribe an organisation's libraries, cloud provider, CI product, or deployment topology.
 
 ## Contents
 
-- `AGENTS.md` is the repository-level operating posture. Start a project by copying it to that project's root and adding the project's own facts.
-- `skills/` contains focused, independently selectable skills. Every skill is a standard skill directory with a `SKILL.md` entry point.
+- `AGENTS.md` is an opinionated repository-level operating posture. Start a project by copying it to that project's root and adding the project's own facts.
+- `skills/` contains focused, opinionated, independently selectable skills. Every skill is a standard skill directory with a `SKILL.md` entry point.
 
 | Skill | Use it for |
 | --- | --- |
