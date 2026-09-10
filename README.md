@@ -13,6 +13,7 @@ A stack-neutral foundation for repositories that use Codex-style agent instructi
 | `debugging` | Evidence-first diagnosis of an incident or unexpected behaviour |
 | `delivery-status` | Evidence-based delivery and release-status reporting |
 | `git-workflow` | Commits, branches, pull requests, and review readiness |
+| `github-workflow-creator` | Secure, quality-gated GitHub Actions and trusted bot automation |
 | `project-tooling` | Build/test commands, dependencies, CI, containers, or release tooling |
 | `python-quality` | Writing or reviewing Python code |
 | `python-service-architecture` | Python business logic, persistence, or integrations |
